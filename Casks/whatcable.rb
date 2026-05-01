@@ -1,6 +1,6 @@
 cask "whatcable" do
-  version "0.5.0"
-  sha256 "eebf1618a9536fd10e82de34e195a08965890d0eba423a3b2e34fbfe8206da9a"
+  version "0.5.1"
+  sha256 "7bc9f183f3135df1163b8ea5b416a899b0ca9ac3bab619f60fba6f3242bb0d3e"
 
   url "https://github.com/darrylmorley/whatcable/releases/download/v#{version}/WhatCable.zip",
       verified: "github.com/darrylmorley/whatcable/"
@@ -16,7 +16,7 @@ cask "whatcable" do
   depends_on macos: ">= :sonoma"
 
   app "WhatCable.app"
-  binary "#{appdir}/WhatCable.app/Contents/MacOS/whatcable"
+  binary "#{appdir}/WhatCable.app/Contents/Helpers/whatcable"
 
   zap trash: [
     "~/Library/Preferences/com.bitmoor.whatcable.plist",
