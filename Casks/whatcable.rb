@@ -20,8 +20,11 @@ cask "whatcable" do
 
   zap trash: [
     "~/Library/Preferences/com.bitmoor.whatcable.plist",
+    "~/Library/Preferences/uk.whatcable.whatcable.plist",
     "~/Library/Application Support/WhatCable",
     "~/Library/Caches/com.bitmoor.whatcable",
+    "~/Library/Caches/uk.whatcable.whatcable",
     "~/Library/HTTPStorages/com.bitmoor.whatcable",
+    "~/Library/HTTPStorages/uk.whatcable.whatcable",
   ]
 end
