@@ -1,6 +1,6 @@
 cask "whatcable" do
-  version "0.10.0"
-  sha256 "bdf935383c0e501f4f74664c2f7437d59e545c377eb9900cd040ea96200d5844"
+  version "0.10.1"
+  sha256 "28bc55835645d9d1d932f136a706099bae8135f1f84b34f7d16de73867fbf9d1"
 
   url "https://github.com/darrylmorley/whatcable/releases/download/v#{version}/WhatCable.zip",
       verified: "github.com/darrylmorley/whatcable/"
