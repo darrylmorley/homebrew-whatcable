@@ -19,12 +19,16 @@ cask "whatcable" do
   binary "#{appdir}/WhatCable.app/Contents/Helpers/whatcable"
 
   zap trash: [
-    "~/Library/Preferences/com.bitmoor.whatcable.plist",
-    "~/Library/Preferences/uk.whatcable.whatcable.plist",
+    "~/Library/Application Scripts/M4RUJ7W6MP.uk.whatcable.whatcable",
+    "~/Library/Application Scripts/uk.whatcable.whatcable.widget",
     "~/Library/Application Support/WhatCable",
     "~/Library/Caches/com.bitmoor.whatcable",
     "~/Library/Caches/uk.whatcable.whatcable",
+    "~/Library/Containers/uk.whatcable.whatcable.widget",
+    "~/Library/Group Containers/M4RUJ7W6MP.uk.whatcable.whatcable",
     "~/Library/HTTPStorages/com.bitmoor.whatcable",
     "~/Library/HTTPStorages/uk.whatcable.whatcable",
+    "~/Library/Preferences/com.bitmoor.whatcable.plist",
+    "~/Library/Preferences/uk.whatcable.whatcable.plist",
   ]
 end
