@@ -32,8 +32,10 @@ class WhatcableCli < Formula
       For the menu bar app, install the cask instead:
         brew install --cask whatcable
 
-      Pro features activate the same way as in the app:
-        whatcable activate <your-licence-key>
+      Activate WhatCable Pro on this machine:
+        whatcable --activate XXXX-XXXX-XXXX-XXXX
+
+      Check status: `whatcable --licence`. See `whatcable --help` for more.
     EOS
   end
 
