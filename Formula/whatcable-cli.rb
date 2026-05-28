@@ -1,8 +1,8 @@
 class WhatcableCli < Formula
   desc "Command-line USB-C cable diagnostics"
   homepage "https://github.com/darrylmorley/whatcable"
-  url "https://github.com/darrylmorley/whatcable/releases/download/v0.14.1/whatcable-cli-0.14.1.zip"
-  sha256 "d4857aa58c129704dcce19ff0a2919aca0eb8c2c7e6c7d7936852de32c4a551d"
+  url "https://github.com/darrylmorley/whatcable/releases/download/v0.14.2/whatcable-cli-0.14.2.zip"
+  sha256 "bcbf64144afc1bfdacaffb1fb85f4c3c520e044f67bd5cd36c36d1ae9d7e4107"
   license "MIT"
 
   livecheck do
