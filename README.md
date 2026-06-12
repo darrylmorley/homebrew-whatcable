@@ -8,12 +8,13 @@ Homebrew tap for [WhatCable](https://github.com/darrylmorley/whatcable), the mac
 brew install --cask darrylmorley/whatcable/whatcable
 ```
 
-Or tap first, install second:
+For the CLI only (no menu bar app):
 
 ```sh
-brew tap darrylmorley/whatcable
-brew install --cask whatcable
+brew install darrylmorley/whatcable/whatcable-cli
 ```
+
+Homebrew 6 may warn about untrusted third-party taps on first install. If an existing install starts complaining about an untrusted tap, run `brew trust darrylmorley/whatcable` or see https://docs.brew.sh/Tap-Trust for details.
 
 ## Update
 
